@@ -1,7 +1,8 @@
 package com.bse.factoryDesign.factory;
 
-public interface Vahicle {
+public interface Vehicle {
 	
 	public String specification();
+	public String getType();
 	
 }
